@@ -1,13 +1,16 @@
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-num3 = float(input("Enter third number: "))
+a = float(input("pisan: "))
+b = float(input("kepindo : "))
+c = float(input("ketelu: "))
 
-if (num1 >= num2) and (num1 >= num3):
-    largest = num1
-elif (num2 >= num1) and (num2 >= num3):
-    largest = num2
+if a > b and a > c:
+    largest = a
+    print("ongko sek gede:", largest)
+elif b > a and b > c:
+    largest = b
+    print("ongko sek gede:", largest)
+elif c > a and c > b:
+    largest = c
+    print("ongko sek gede:", largest)
 
 else:
-     largest = num3
-
-print ("the largest number is: ", largest)
+    print ("mboten enten ongko sek gedi")
