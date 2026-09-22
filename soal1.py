@@ -1,4 +1,4 @@
-nilai = it(input("masukkan nilai : "))
+nilai = int(input("masukkan nilai : "))
 
 if nilai >= 90:
     print("exellent")
